@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FA52381CDAFB3600563245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA52371CDAFB3600563245 /* main.m */; };
+		28FA523B1CDAFB3600563245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA523A1CDAFB3600563245 /* AppDelegate.m */; };
+		28FA523E1CDAFB3600563245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA523D1CDAFB3600563245 /* ViewController.m */; };
+		28FA52411CDAFB3600563245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA523F1CDAFB3600563245 /* Main.storyboard */; };
+		28FA52431CDAFB3600563245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FA52421CDAFB3600563245 /* Assets.xcassets */; };
+		28FA52461CDAFB3600563245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA52441CDAFB3600563245 /* LaunchScreen.storyboard */; };
+		28FA52511CDAFB3600563245 /* MatroPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA52501CDAFB3600563245 /* MatroPadTests.m */; };
+		28FA525C1CDAFB3600563245 /* MatroPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA525B1CDAFB3600563245 /* MatroPadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FA524D1CDAFB3600563245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FA522B1CDAFB3600563245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FA52321CDAFB3600563245;
+			remoteInfo = MatroPad;
+		};
+		28FA52581CDAFB3600563245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FA522B1CDAFB3600563245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FA52321CDAFB3600563245;
+			remoteInfo = MatroPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FA52331CDAFB3600563245 /* MatroPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatroPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FA52371CDAFB3600563245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28FA52391CDAFB3600563245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28FA523A1CDAFB3600563245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28FA523C1CDAFB3600563245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28FA523D1CDAFB3600563245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28FA52401CDAFB3600563245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FA52421CDAFB3600563245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FA52451CDAFB3600563245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FA52471CDAFB3600563245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FA524C1CDAFB3600563245 /* MatroPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatroPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FA52501CDAFB3600563245 /* MatroPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatroPadTests.m; sourceTree = "<group>"; };
+		28FA52521CDAFB3600563245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FA52571CDAFB3600563245 /* MatroPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatroPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FA525B1CDAFB3600563245 /* MatroPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatroPadUITests.m; sourceTree = "<group>"; };
+		28FA525D1CDAFB3600563245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FA52301CDAFB3600563245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA52491CDAFB3600563245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA52541CDAFB3600563245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FA522A1CDAFB3600563245 = {
+			isa = PBXGroup;
+			children = (
+				28FA52351CDAFB3600563245 /* MatroPad */,
+				28FA524F1CDAFB3600563245 /* MatroPadTests */,
+				28FA525A1CDAFB3600563245 /* MatroPadUITests */,
+				28FA52341CDAFB3600563245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FA52341CDAFB3600563245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FA52331CDAFB3600563245 /* MatroPad.app */,
+				28FA524C1CDAFB3600563245 /* MatroPadTests.xctest */,
+				28FA52571CDAFB3600563245 /* MatroPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FA52351CDAFB3600563245 /* MatroPad */ = {
+			isa = PBXGroup;
+			children = (
+				28FA52391CDAFB3600563245 /* AppDelegate.h */,
+				28FA523A1CDAFB3600563245 /* AppDelegate.m */,
+				28FA523C1CDAFB3600563245 /* ViewController.h */,
+				28FA523D1CDAFB3600563245 /* ViewController.m */,
+				28FA523F1CDAFB3600563245 /* Main.storyboard */,
+				28FA52421CDAFB3600563245 /* Assets.xcassets */,
+				28FA52441CDAFB3600563245 /* LaunchScreen.storyboard */,
+				28FA52471CDAFB3600563245 /* Info.plist */,
+				28FA52361CDAFB3600563245 /* Supporting Files */,
+			);
+			path = MatroPad;
+			sourceTree = "<group>";
+		};
+		28FA52361CDAFB3600563245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28FA52371CDAFB3600563245 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28FA524F1CDAFB3600563245 /* MatroPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FA52501CDAFB3600563245 /* MatroPadTests.m */,
+				28FA52521CDAFB3600563245 /* Info.plist */,
+			);
+			path = MatroPadTests;
+			sourceTree = "<group>";
+		};
+		28FA525A1CDAFB3600563245 /* MatroPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FA525B1CDAFB3600563245 /* MatroPadUITests.m */,
+				28FA525D1CDAFB3600563245 /* Info.plist */,
+			);
+			path = MatroPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FA52321CDAFB3600563245 /* MatroPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FA52601CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPad" */;
+			buildPhases = (
+				28FA522F1CDAFB3600563245 /* Sources */,
+				28FA52301CDAFB3600563245 /* Frameworks */,
+				28FA52311CDAFB3600563245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatroPad;
+			productName = MatroPad;
+			productReference = 28FA52331CDAFB3600563245 /* MatroPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FA524B1CDAFB3600563245 /* MatroPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FA52631CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadTests" */;
+			buildPhases = (
+				28FA52481CDAFB3600563245 /* Sources */,
+				28FA52491CDAFB3600563245 /* Frameworks */,
+				28FA524A1CDAFB3600563245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FA524E1CDAFB3600563245 /* PBXTargetDependency */,
+			);
+			name = MatroPadTests;
+			productName = MatroPadTests;
+			productReference = 28FA524C1CDAFB3600563245 /* MatroPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FA52561CDAFB3600563245 /* MatroPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FA52661CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadUITests" */;
+			buildPhases = (
+				28FA52531CDAFB3600563245 /* Sources */,
+				28FA52541CDAFB3600563245 /* Frameworks */,
+				28FA52551CDAFB3600563245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FA52591CDAFB3600563245 /* PBXTargetDependency */,
+			);
+			name = MatroPadUITests;
+			productName = MatroPadUITests;
+			productReference = 28FA52571CDAFB3600563245 /* MatroPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FA522B1CDAFB3600563245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Matro;
+				TargetAttributes = {
+					28FA52321CDAFB3600563245 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					28FA524B1CDAFB3600563245 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 28FA52321CDAFB3600563245;
+					};
+					28FA52561CDAFB3600563245 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 28FA52321CDAFB3600563245;
+					};
+				};
+			};
+			buildConfigurationList = 28FA522E1CDAFB3600563245 /* Build configuration list for PBXProject "MatroPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FA522A1CDAFB3600563245;
+			productRefGroup = 28FA52341CDAFB3600563245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FA52321CDAFB3600563245 /* MatroPad */,
+				28FA524B1CDAFB3600563245 /* MatroPadTests */,
+				28FA52561CDAFB3600563245 /* MatroPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FA52311CDAFB3600563245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA52461CDAFB3600563245 /* LaunchScreen.storyboard in Resources */,
+				28FA52431CDAFB3600563245 /* Assets.xcassets in Resources */,
+				28FA52411CDAFB3600563245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA524A1CDAFB3600563245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA52551CDAFB3600563245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FA522F1CDAFB3600563245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA523E1CDAFB3600563245 /* ViewController.m in Sources */,
+				28FA523B1CDAFB3600563245 /* AppDelegate.m in Sources */,
+				28FA52381CDAFB3600563245 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA52481CDAFB3600563245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA52511CDAFB3600563245 /* MatroPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA52531CDAFB3600563245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA525C1CDAFB3600563245 /* MatroPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FA524E1CDAFB3600563245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FA52321CDAFB3600563245 /* MatroPad */;
+			targetProxy = 28FA524D1CDAFB3600563245 /* PBXContainerItemProxy */;
+		};
+		28FA52591CDAFB3600563245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FA52321CDAFB3600563245 /* MatroPad */;
+			targetProxy = 28FA52581CDAFB3600563245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FA523F1CDAFB3600563245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FA52401CDAFB3600563245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FA52441CDAFB3600563245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FA52451CDAFB3600563245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FA525E1CDAFB3600563245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FA525F1CDAFB3600563245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FA52611CDAFB3600563245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatroPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28FA52621CDAFB3600563245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatroPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28FA52641CDAFB3600563245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatroPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatroPad.app/MatroPad";
+			};
+			name = Debug;
+		};
+		28FA52651CDAFB3600563245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatroPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatroPad.app/MatroPad";
+			};
+			name = Release;
+		};
+		28FA52671CDAFB3600563245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatroPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MatroPad;
+			};
+			name = Debug;
+		};
+		28FA52681CDAFB3600563245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatroPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MatroPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FA522E1CDAFB3600563245 /* Build configuration list for PBXProject "MatroPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA525E1CDAFB3600563245 /* Debug */,
+				28FA525F1CDAFB3600563245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FA52601CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA52611CDAFB3600563245 /* Debug */,
+				28FA52621CDAFB3600563245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28FA52631CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA52641CDAFB3600563245 /* Debug */,
+				28FA52651CDAFB3600563245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28FA52661CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA52671CDAFB3600563245 /* Debug */,
+				28FA52681CDAFB3600563245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FA522B1CDAFB3600563245 /* Project object */;
+}
