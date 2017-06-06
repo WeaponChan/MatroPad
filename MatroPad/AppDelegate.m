@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import "MatroPadViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+//    MatroPadViewController *viewCtrl ;
+//
+////    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+////        
+////        viewCtrl= [[MatroPadViewController alloc] initWithNibName:@"MatroIphoneViewController"bundle:nil];
+////    } else {
+//    
+//        viewCtrl= [[MatroPadViewController alloc] initWithNibName:@"MatroPadViewController"bundle:nil];
+//    
+//    self.window.rootViewController = viewCtrl;
+//    [self.window makeKeyWindow];
     return YES;
 }
 

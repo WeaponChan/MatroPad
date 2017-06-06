@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284DEE5D1D6D88FC00FB3BB5 /* MLActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284DEE5B1D6D88FC00FB3BB5 /* MLActivityViewController.m */; };
+		284DEE5E1D6D88FC00FB3BB5 /* MLActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284DEE5C1D6D88FC00FB3BB5 /* MLActivityViewController.xib */; };
+		28BF99661D742D62000DF464 /* MLPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF99651D742D62000DF464 /* MLPadViewController.m */; };
+		28F3072D1D6D2FDC00F2B5C9 /* UIPadScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F3072C1D6D2FDC00F2B5C9 /* UIPadScanViewController.m */; };
+		28F3072F1D6D309C00F2B5C9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F3072E1D6D309C00F2B5C9 /* JavaScriptCore.framework */; };
 		28FA52381CDAFB3600563245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA52371CDAFB3600563245 /* main.m */; };
 		28FA523B1CDAFB3600563245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA523A1CDAFB3600563245 /* AppDelegate.m */; };
 		28FA523E1CDAFB3600563245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA523D1CDAFB3600563245 /* ViewController.m */; };
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284DEE5A1D6D88FC00FB3BB5 /* MLActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLActivityViewController.h; sourceTree = "<group>"; };
+		284DEE5B1D6D88FC00FB3BB5 /* MLActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLActivityViewController.m; sourceTree = "<group>"; };
+		284DEE5C1D6D88FC00FB3BB5 /* MLActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLActivityViewController.xib; sourceTree = "<group>"; };
+		28BF99641D742D62000DF464 /* MLPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPadViewController.h; sourceTree = "<group>"; };
+		28BF99651D742D62000DF464 /* MLPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPadViewController.m; sourceTree = "<group>"; };
+		28F3072B1D6D2FDC00F2B5C9 /* UIPadScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPadScanViewController.h; path = ../UIPadScanViewController.h; sourceTree = "<group>"; };
+		28F3072C1D6D2FDC00F2B5C9 /* UIPadScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPadScanViewController.m; path = ../UIPadScanViewController.m; sourceTree = "<group>"; };
+		28F3072E1D6D309C00F2B5C9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28FA52331CDAFB3600563245 /* MatroPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatroPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FA52371CDAFB3600563245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28FA52391CDAFB3600563245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F3072F1D6D309C00F2B5C9 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		28FA522A1CDAFB3600563245 = {
 			isa = PBXGroup;
 			children = (
+				28F3072E1D6D309C00F2B5C9 /* JavaScriptCore.framework */,
 				28FA52351CDAFB3600563245 /* MatroPad */,
 				28FA524F1CDAFB3600563245 /* MatroPadTests */,
 				28FA525A1CDAFB3600563245 /* MatroPadUITests */,
@@ -105,6 +120,13 @@
 				28FA523A1CDAFB3600563245 /* AppDelegate.m */,
 				28FA523C1CDAFB3600563245 /* ViewController.h */,
 				28FA523D1CDAFB3600563245 /* ViewController.m */,
+				28F3072B1D6D2FDC00F2B5C9 /* UIPadScanViewController.h */,
+				28F3072C1D6D2FDC00F2B5C9 /* UIPadScanViewController.m */,
+				284DEE5A1D6D88FC00FB3BB5 /* MLActivityViewController.h */,
+				284DEE5B1D6D88FC00FB3BB5 /* MLActivityViewController.m */,
+				284DEE5C1D6D88FC00FB3BB5 /* MLActivityViewController.xib */,
+				28BF99641D742D62000DF464 /* MLPadViewController.h */,
+				28BF99651D742D62000DF464 /* MLPadViewController.m */,
 				28FA523F1CDAFB3600563245 /* Main.storyboard */,
 				28FA52421CDAFB3600563245 /* Assets.xcassets */,
 				28FA52441CDAFB3600563245 /* LaunchScreen.storyboard */,
@@ -207,6 +229,7 @@
 				TargetAttributes = {
 					28FA52321CDAFB3600563245 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K7B37N4V6S;
 					};
 					28FA524B1CDAFB3600563245 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FA52461CDAFB3600563245 /* LaunchScreen.storyboard in Resources */,
+				284DEE5E1D6D88FC00FB3BB5 /* MLActivityViewController.xib in Resources */,
 				28FA52431CDAFB3600563245 /* Assets.xcassets in Resources */,
 				28FA52411CDAFB3600563245 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284DEE5D1D6D88FC00FB3BB5 /* MLActivityViewController.m in Sources */,
 				28FA523E1CDAFB3600563245 /* ViewController.m in Sources */,
 				28FA523B1CDAFB3600563245 /* AppDelegate.m in Sources */,
+				28BF99661D742D62000DF464 /* MLPadViewController.m in Sources */,
 				28FA52381CDAFB3600563245 /* main.m in Sources */,
+				28F3072D1D6D2FDC00F2B5C9 /* UIPadScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +372,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Song Chang (PDPCG4V7LN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Song Chang (PDPCG4V7LN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -367,6 +395,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9e3db52f-3cbb-47d9-95c6-d24c00458e43";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,7 +419,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Song Chang (PDPCG4V7LN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Song Chang (PDPCG4V7LN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -405,6 +435,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9e3db52f-3cbb-47d9-95c6-d24c00458e43";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -415,10 +446,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K7B37N4V6S;
 				INFOPLIST_FILE = MatroPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matro3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -426,10 +463,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K7B37N4V6S;
 				INFOPLIST_FILE = MatroPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = matro.MatroPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matro3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -498,6 +541,7 @@
 				28FA52621CDAFB3600563245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28FA52631CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +550,7 @@
 				28FA52651CDAFB3600563245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28FA52661CDAFB3600563245 /* Build configuration list for PBXNativeTarget "MatroPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +559,7 @@
 				28FA52681CDAFB3600563245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
